@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col-md-4 mx-auto">
+        <div class="card">
+            <img src="software.png" alt="Software Video Edition" class="card-img-top">
+            <div class="card-body">
+                <h2>$ 20</h2>
+                <p style="text-align: justify;">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione porro voluptates inventore error
+                    ex
+                    dolore iure quas voluptas molestias adipisci repudiandae, voluptate illo doloremque expedita ullam
+                    ad
+                    obcaecati blanditiis omnis.
+                </p>
+
+            </div>
+            <div class="card-footer">
+
+                <form action="/checkout" method="POST">
+                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="pk_test_51GvyGwB9QoZvlLmGyTXMhoRBZP6QkK11fMrGh6qC0QO7wyJMGwQs5AUzOIg2Qy0Ozywpdn2q8SsFAGpPIMRF288l00zZSVyRCc"
+                        data-name="Custom t-shirt" data-description="Your custom designed t-shirt" data-amount="3000"
+                        data-image="/logo.png" data-locale="auto">
+                        </script>
+
+                    <script>
+                        document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+                    </script>
+                    <button class="btn btn-success btn-block">
+                        Buy! <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </form>
+                {{!-- Minuti 38 --}}
+            </div>
+        </div>
+    </div>
+</div>
